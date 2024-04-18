@@ -1,0 +1,628 @@
+[INFO ] 2021-07-24 13:26:08.382 [main] ExcelUtils - Start of reading
+[DEBUG] 2021-07-24 13:26:09.544 [main] ExcelUtils - Reading data completed from excel: {location=Bangalore, Type=Hospital, Rating=3.5+}
+[INFO ] 2021-07-24 13:26:09.545 [main] ExcelUtils - End of reading
+[INFO ] 2021-07-24 13:26:09.566 [main] DriverSetup - Start of setting web driver
+[INFO ] 2021-07-24 13:26:09.567 [main] DriverSetup - Loading the url and the drivers as properties
+[DEBUG] 2021-07-24 13:26:15.583 [main] DriverSetup - Setup done for Webdriver of type: ChromeDriver
+[INFO ] 2021-07-24 13:26:15.585 [main] DriverSetup - Maximizing window
+[DEBUG] 2021-07-24 13:26:15.823 [main] DriverSetup - Opening url: https://www.practo.com/
+[INFO ] 2021-07-24 13:26:19.542 [main] DriverSetup - End of setting web driver
+[INFO ] 2021-07-24 13:26:19.679 [main] ExcelUtils - Start of reading
+[DEBUG] 2021-07-24 13:26:19.838 [main] ExcelUtils - Reading data completed from excel: {LOCATION_SEARCH_B0X_XPATH=//input[contains(@placeholder, 'location')], CITY_OPTION_CLASSNAME=c-omni-suggestion-item__content__title, HOSPITAL_SEARCH_BOX_XPATH=//input[contains(@placeholder, 'hospitals')], SEARCH_TYPE_OPTION_CSS_SELECTOR=.c-omni-suggestion-list>.c-omni-suggestion-group:first-child>.c-omni-suggestion-item:first-child>span.c-omni-suggestion-item__content:nth-child(2), OPEN_24X7_CHECK_BOX_XPATH=//span[contains(text(), 'Open')], ALL_FILTERS_OPTION_XPATH=//span[contains(text(), 'Filters')], CAR_PARKING_CHECK_BOX_XPATH=//span[contains(text(), 'Parking')], ALL_HOSPITALS_CSS_SELECTOR=.c-card>div:first-child, HOSPITAL_NAME_TAG_NAME=h2, HOSPITAL_RATING_CLASSNAME=common__star-rating__value, NEXT_LINK_TEXT=Next, BODY_TAG_NAME=body}
+[INFO ] 2021-07-24 13:26:19.839 [main] ExcelUtils - End of reading
+[DEBUG] 2021-07-24 13:26:19.853 [main] PractoHospitals - Title of the page is: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+[DEBUG] 2021-07-24 13:26:19.853 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:19.860 [main] PractoHospitals - Finding Location search box using : By.xpath: //input[contains(@placeholder, 'location')]
+[DEBUG] 2021-07-24 13:26:20.003 [main] PractoHospitals - Finding Location search box using : By.xpath: //input[contains(@placeholder, 'location')]
+[DEBUG] 2021-07-24 13:26:20.108 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:20.115 [main] PractoHospitals - Finding Location search box using : By.xpath: //input[contains(@placeholder, 'location')]
+[DEBUG] 2021-07-24 13:26:20.476 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:21.489 [main] PractoHospitals - Getting City option using : By.className: c-omni-suggestion-item__content__title
+[DEBUG] 2021-07-24 13:26:21.644 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:21.653 [main] PractoHospitals - Finding Hospital search box using : By.xpath: //input[contains(@placeholder, 'hospitals')]
+[DEBUG] 2021-07-24 13:26:21.884 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:21.890 [main] PractoHospitals - Getting Hospital option using : By.cssSelector: .c-omni-suggestion-list>.c-omni-suggestion-group:first-child>.c-omni-suggestion-item:first-child>span.c-omni-suggestion-item__content:nth-child(2)
+[DEBUG] 2021-07-24 13:26:27.879 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:27.889 [main] PractoHospitals - Getting All filters option using : By.xpath: //span[contains(text(), 'Filters')]
+[DEBUG] 2021-07-24 13:26:28.036 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:28.042 [main] PractoHospitals - Getting Car parking checkbox using : By.xpath: //span[contains(text(), 'Parking')]
+[DEBUG] 2021-07-24 13:26:28.242 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:32.257 [main] PractoHospitals - Getting Open 24X7 checkbox using : By.xpath: //span[contains(text(), 'Open')]
+[DEBUG] 2021-07-24 13:26:33.701 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:33.713 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[INFO ] 2021-07-24 13:26:34.759 [main] ScreenshotUtils - Start of taking screenshot
+[DEBUG] 2021-07-24 13:26:38.026 [main] ScreenshotUtils - Screenshot taken and stored into file: src/test/resources/screenshots/
+[INFO ] 2021-07-24 13:26:38.223 [main] ScreenshotUtils - End of taking screenshot
+[DEBUG] 2021-07-24 13:26:38.223 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:26:38.228 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:38.388 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:38.498 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:39.512 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:39.660 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:39.726 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:40.734 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:41.126 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:41.210 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:42.220 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:42.440 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:42.509 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:43.519 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:43.735 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:43.812 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:44.819 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:45.038 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:45.113 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:46.120 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:46.502 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:46.676 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:47.679 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:47.982 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:48.082 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:49.088 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:49.349 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:49.429 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:50.438 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:50.693 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:50.762 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:51.767 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:52.022 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:52.095 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:53.107 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:53.431 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:53.509 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:54.523 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:54.872 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:54.960 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:55.975 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:56.317 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:56.394 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:57.403 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:57.778 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:58.122 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:26:59.124 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:26:59.529 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:26:59.638 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:00.647 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:01.045 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:01.126 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:02.141 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:02.556 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:02.648 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:03.651 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:04.040 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:04.116 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:05.129 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:05.707 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:05.865 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:06.881 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:07.328 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:07.407 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:08.420 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:08.907 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:09.027 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:10.040 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:10.481 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:10.562 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:11.568 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:12.027 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:12.361 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:13.362 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:13.882 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:13.982 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:14.990 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:15.517 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:15.595 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:16.611 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:17.210 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:17.298 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:18.302 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:18.995 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:19.179 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:20.183 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:20.750 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:20.831 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:21.841 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:22.410 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:22.512 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:23.520 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:24.056 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:24.131 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:25.146 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:25.879 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:25.991 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:26.995 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:27.696 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:27.774 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:28.776 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:29.376 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:29.492 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:30.496 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:31.126 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:31.197 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:32.202 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:33.140 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:33.297 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:34.300 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:34.963 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:35.039 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:36.050 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:36.706 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:36.823 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:37.838 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:38.470 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:38.547 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:39.554 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:40.276 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:40.698 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:41.704 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:42.398 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:42.474 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:43.487 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:44.555 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:44.694 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:45.707 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:46.443 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:46.514 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:47.520 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:48.315 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:48.389 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:49.392 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:50.449 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:50.562 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:51.576 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:52.329 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:52.466 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:53.470 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:54.227 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:54.305 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:55.307 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:56.057 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:56.139 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:57.148 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:27:57.964 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:27:58.379 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:27:59.380 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:28:00.176 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:28:00.246 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:28:01.249 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:28:02.058 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:28:02.141 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:28:03.143 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:28:03.954 [main] PractoHospitals - Retrieving Body element using : By.tagName: body
+[DEBUG] 2021-07-24 13:28:04.095 [main] PractoHospitals - Providing explicit delay of 1 seconds
+[DEBUG] 2021-07-24 13:28:05.109 [main] PractoHospitals - Retrieving Next link element using : By.linkText: Next
+[DEBUG] 2021-07-24 13:28:15.992 [main] PractoHospitals - Retrieving All hospitals using : By.cssSelector: .c-card>div:first-child
+[DEBUG] 2021-07-24 13:28:16.376 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:16.557 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:16.608 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:16.660 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:16.712 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:16.763 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:16.826 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:16.877 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:16.927 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:16.978 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.030 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:17.077 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.125 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:17.184 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.247 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:17.318 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.376 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:17.441 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.520 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:17.588 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.644 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:17.700 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.757 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:17.808 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.862 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:17.907 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:17.966 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:18.049 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:18.110 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:18.161 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:18.251 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:18.337 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:18.391 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:18.454 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:18.507 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:18.577 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:18.633 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:28.674 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:28.724 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:28.775 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:28.830 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:28.876 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:28.931 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:28.982 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:29.031 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:29.088 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.132 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.195 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:39.264 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.311 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:39.362 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.413 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.461 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:39.511 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.564 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:39.613 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.665 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:39.732 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.794 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.846 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:39.890 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.935 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:39.983 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:40.108 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:40.165 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:40.216 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:40.286 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:40.365 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:40.448 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:40.526 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:40.581 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:40.656 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:40.728 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:40.777 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:40.848 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:40.902 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:40.951 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:40.998 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.045 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:41.095 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.144 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.190 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:41.239 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.283 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:41.331 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.393 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:41.460 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.506 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.557 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:41.674 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.724 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:41.774 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.824 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:41.907 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:41.965 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.016 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:42.083 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.141 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:42.184 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.231 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:42.276 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.318 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:42.366 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.414 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:42.471 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.534 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.581 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:42.630 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.680 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.731 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:42.783 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.840 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.892 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:42.946 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:42.995 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.046 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:43.109 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.183 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:43.233 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.295 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:43.344 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.397 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.442 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:43.490 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.539 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:43.589 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.645 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:43.737 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.806 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:43.850 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.896 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:43.945 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:43.992 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.040 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.094 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.134 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:44.192 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.259 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:44.306 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.368 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:44.417 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.466 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:44.523 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.568 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:44.616 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.664 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:44.713 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.762 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.832 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:44.885 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:44.950 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:44.997 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:45.066 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:45.115 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:45.164 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:45.219 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:55.247 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:55.297 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:28:55.350 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:55.407 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:28:55.455 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:05.508 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:05.562 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:15.614 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:25.681 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:25.730 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:29:25.774 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:25.818 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:25.865 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:25.913 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:29:25.965 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:26.012 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:26.062 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:36.115 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:46.147 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:29:56.182 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:30:06.247 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:30:16.280 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:30:26.311 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:30:36.361 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:30:46.416 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:30:56.452 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:30:56.506 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:30:56.579 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:31:06.644 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:31:16.709 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:31:26.730 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:31:36.786 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:31:46.815 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:31:56.851 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:32:06.939 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:32:16.982 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:32:27.050 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:32:37.117 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:32:47.172 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:32:57.187 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:07.250 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:07.296 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:33:07.347 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:17.401 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:17.445 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:33:17.496 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:27.513 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:37.538 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:37.607 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[DEBUG] 2021-07-24 13:33:37.657 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:47.690 [main] PractoHospitals - Retrieving Hospital rating using : By.className: common__star-rating__value
+[DEBUG] 2021-07-24 13:33:47.753 [main] PractoHospitals - Retrieving Hospital name using : By.cssSelector: h2
+[INFO ] 2021-07-24 13:33:47.808 [main] ExcelUtils - Start of writing
+[DEBUG] 2021-07-24 13:33:48.778 [main] ExcelUtils - Writing data: Motherhood Hospital
+[DEBUG] 2021-07-24 13:33:48.781 [main] ExcelUtils - Writing data: Koshys Hospital
+[DEBUG] 2021-07-24 13:33:48.782 [main] ExcelUtils - Writing data: NU Hospitals
+[DEBUG] 2021-07-24 13:33:48.784 [main] ExcelUtils - Writing data: Cloudnine Hospital - Old Airport Road
+[DEBUG] 2021-07-24 13:33:48.785 [main] ExcelUtils - Writing data: Cloudnine Hospital - Malleshwaram
+[DEBUG] 2021-07-24 13:33:48.787 [main] ExcelUtils - Writing data: Cloudnine Hospital - Whitefield
+[DEBUG] 2021-07-24 13:33:48.788 [main] ExcelUtils - Writing data: Cloudnine Hospital - Bellandur
+[DEBUG] 2021-07-24 13:33:48.790 [main] ExcelUtils - Writing data: Cloudnine Hospital - Jayanagar
+[DEBUG] 2021-07-24 13:33:48.791 [main] ExcelUtils - Writing data: Cloudnine Fertility - IVF Centre, Old Airport Road
+[DEBUG] 2021-07-24 13:33:48.793 [main] ExcelUtils - Writing data: Cloudnine Fertility - IVF Centre, Jayanagar
+[DEBUG] 2021-07-24 13:33:48.795 [main] ExcelUtils - Writing data: Cloudnine Fertility - IVF Centre, Whitefield
+[DEBUG] 2021-07-24 13:33:48.796 [main] ExcelUtils - Writing data: Trustwell Hospitals
+[DEBUG] 2021-07-24 13:33:48.797 [main] ExcelUtils - Writing data: Wellspring - The Fertility Centre
+[DEBUG] 2021-07-24 13:33:48.799 [main] ExcelUtils - Writing data: Cloudnine Fertility - IVF Centre, Malleshwaram
+[DEBUG] 2021-07-24 13:33:48.801 [main] ExcelUtils - Writing data: Cloudnine Fertility - IVF Centre, Bellandur
+[DEBUG] 2021-07-24 13:33:48.803 [main] ExcelUtils - Writing data: Cloudnine Fertility - IVF Centre, HRBR Layout
+[DEBUG] 2021-07-24 13:33:48.805 [main] ExcelUtils - Writing data: Motherhood Fertility - Sarjapur Road
+[DEBUG] 2021-07-24 13:33:48.808 [main] ExcelUtils - Writing data: Sai Thunga Hospital
+[DEBUG] 2021-07-24 13:33:48.810 [main] ExcelUtils - Writing data: Aster Women & Children Hospital
+[DEBUG] 2021-07-24 13:33:48.812 [main] ExcelUtils - Writing data: Jayashree Speciality Hospital
+[DEBUG] 2021-07-24 13:33:48.814 [main] ExcelUtils - Writing data: Blue Bliss Hospital
+[DEBUG] 2021-07-24 13:33:48.816 [main] ExcelUtils - Writing data: Sakra World Hospital
+[DEBUG] 2021-07-24 13:33:48.817 [main] ExcelUtils - Writing data: Columbia Asia Hospital
+[DEBUG] 2021-07-24 13:33:48.819 [main] ExcelUtils - Writing data: Navachethana Hospital
+[DEBUG] 2021-07-24 13:33:48.821 [main] ExcelUtils - Writing data: Poornima Hospital
+[DEBUG] 2021-07-24 13:33:48.822 [main] ExcelUtils - Writing data: Greenview Medical Center
+[DEBUG] 2021-07-24 13:33:48.824 [main] ExcelUtils - Writing data: Cloudnine Children's Hospital - Jayanagar
+[DEBUG] 2021-07-24 13:33:48.826 [main] ExcelUtils - Writing data: Aaxis Super Speciality Hospital
+[DEBUG] 2021-07-24 13:33:48.827 [main] ExcelUtils - Writing data: St. Philomena's Hospital
+[DEBUG] 2021-07-24 13:33:48.828 [main] ExcelUtils - Writing data: Specialist Hospital
+[DEBUG] 2021-07-24 13:33:48.831 [main] ExcelUtils - Writing data: Femiint Health & Fertility
+[DEBUG] 2021-07-24 13:33:48.833 [main] ExcelUtils - Writing data: Apollo Cradle & Children’s Hospital
+[DEBUG] 2021-07-24 13:33:48.835 [main] ExcelUtils - Writing data: Blossom multispecialty hospital
+[DEBUG] 2021-07-24 13:33:48.836 [main] ExcelUtils - Writing data: Jayashree Multispeciality Hospital
+[DEBUG] 2021-07-24 13:33:48.837 [main] ExcelUtils - Writing data: Axon Speciality Hospital
+[DEBUG] 2021-07-24 13:33:48.839 [main] ExcelUtils - Writing data: Queens Hospital
+[DEBUG] 2021-07-24 13:33:48.841 [main] ExcelUtils - Writing data: Sagar Hospitals
+[DEBUG] 2021-07-24 13:33:48.865 [main] ExcelUtils - Writing data: Ramakrishna Super Speciality Hospital
+[DEBUG] 2021-07-24 13:33:48.867 [main] ExcelUtils - Writing data: Aveksha Hospital
+[DEBUG] 2021-07-24 13:33:48.869 [main] ExcelUtils - Writing data: Springleaf Healthcare
+[DEBUG] 2021-07-24 13:33:48.876 [main] ExcelUtils - Writing data: Mallige Medical Centre
+[DEBUG] 2021-07-24 13:33:48.879 [main] ExcelUtils - Writing data: RxDx Healthcare
+[DEBUG] 2021-07-24 13:33:48.881 [main] ExcelUtils - Writing data: Sanjeevini MultispecialIty Hospital
+[DEBUG] 2021-07-24 13:33:48.884 [main] ExcelUtils - Writing data: Birthright By Rainbow
+[DEBUG] 2021-07-24 13:33:48.888 [main] ExcelUtils - Writing data: Ovum Woman & Child Speciality Hospital
+[DEBUG] 2021-07-24 13:33:48.892 [main] ExcelUtils - Writing data: Brindhavvan Areion Hospital
+[DEBUG] 2021-07-24 13:33:48.907 [main] ExcelUtils - Writing data: Spandana Hospital and Healthcare centre
+[DEBUG] 2021-07-24 13:33:48.909 [main] ExcelUtils - Writing data: Sakhii Hospital
+[DEBUG] 2021-07-24 13:33:48.910 [main] ExcelUtils - Writing data: Apple Hospital
+[DEBUG] 2021-07-24 13:33:48.911 [main] ExcelUtils - Writing data: Divakars Speciality Hospital
+[DEBUG] 2021-07-24 13:33:48.913 [main] ExcelUtils - Writing data: Hospitec Multi Speciality Hospital
+[DEBUG] 2021-07-24 13:33:48.914 [main] ExcelUtils - Writing data: Bhagwan Mahaveer Jain Hospital
+[DEBUG] 2021-07-24 13:33:48.915 [main] ExcelUtils - Writing data: Nethradhama Super Speciality Eye Hospital
+[DEBUG] 2021-07-24 13:33:48.916 [main] ExcelUtils - Writing data: Spandana Hospital Rehabilitation Center
+[DEBUG] 2021-07-24 13:33:48.917 [main] ExcelUtils - Writing data: Parkmed
+[DEBUG] 2021-07-24 13:33:48.918 [main] ExcelUtils - Writing data: Punya Hospital
+[DEBUG] 2021-07-24 13:33:48.919 [main] ExcelUtils - Writing data: Abhaya Hospital
+[DEBUG] 2021-07-24 13:33:48.920 [main] ExcelUtils - Writing data: Acura Speciality Hospital
+[DEBUG] 2021-07-24 13:33:48.922 [main] ExcelUtils - Writing data: Mazumdar Shaw Medical Center
+[DEBUG] 2021-07-24 13:33:48.936 [main] ExcelUtils - Writing data: Rainbow Children's Hospital
+[DEBUG] 2021-07-24 13:33:48.937 [main] ExcelUtils - Writing data: S J Hospital
+[DEBUG] 2021-07-24 13:33:48.939 [main] ExcelUtils - Writing data: Family Hospital
+[DEBUG] 2021-07-24 13:33:48.942 [main] ExcelUtils - Writing data: Shekhar Hospital
+[DEBUG] 2021-07-24 13:33:48.943 [main] ExcelUtils - Writing data: Acharya Tulasi Jain Hospital
+[DEBUG] 2021-07-24 13:33:48.945 [main] ExcelUtils - Writing data: Cura Hospitals
+[DEBUG] 2021-07-24 13:33:48.946 [main] ExcelUtils - Writing data: Cloudnine Hospital - Kanakapura Road
+[DEBUG] 2021-07-24 13:33:48.947 [main] ExcelUtils - Writing data: Gunasheela Surgical and Maternity Hospital
+[DEBUG] 2021-07-24 13:33:48.947 [main] ExcelUtils - Writing data: Prakriya Hospitals
+[DEBUG] 2021-07-24 13:33:48.948 [main] ExcelUtils - Writing data: Al Ameen Hospital
+[DEBUG] 2021-07-24 13:33:48.949 [main] ExcelUtils - Total written data : 69 for sheet : hospitalNames
+[INFO ] 2021-07-24 13:33:52.837 [main] ExcelUtils - End of writing
+[INFO ] 2021-07-24 13:33:52.843 [main] DriverSetup - Closing browser
+[INFO ] 2021-07-24 13:33:55.189 [main] DriverSetup - Start of setting web driver
+[INFO ] 2021-07-24 13:33:55.189 [main] DriverSetup - Loading the url and the drivers as properties
+[DEBUG] 2021-07-24 13:34:02.695 [main] DriverSetup - Setup done for Webdriver of type: ChromeDriver
+[INFO ] 2021-07-24 13:34:02.695 [main] DriverSetup - Maximizing window
+[DEBUG] 2021-07-24 13:34:02.896 [main] DriverSetup - Opening url: https://www.practo.com/
+[INFO ] 2021-07-24 13:34:19.692 [main] DriverSetup - End of setting web driver
+[INFO ] 2021-07-24 13:34:20.035 [main] ExcelUtils - Start of reading
+[DEBUG] 2021-07-24 13:34:20.354 [main] ExcelUtils - Reading data completed from excel: {DIAGNOSTICS_LINK_XPATH=//div[text() = 'Diagnostics'], TOP_CITIES_CLASSNAME=u-margint--standard}
+[INFO ] 2021-07-24 13:34:20.355 [main] ExcelUtils - End of reading
+[DEBUG] 2021-07-24 13:34:20.355 [main] PractoHospitals - Retrieving Diagnostics link element using : By.xpath: //div[text() = 'Diagnostics']
+[DEBUG] 2021-07-24 13:34:24.386 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:34:24.411 [main] PractoHospitals - Title of the page is: Blood Tests | Book Diagnostic Tests from Home at Best Prices | Practo
+[INFO ] 2021-07-24 13:34:24.412 [main] ScreenshotUtils - Start of taking screenshot
+[DEBUG] 2021-07-24 13:34:24.817 [main] ScreenshotUtils - Screenshot taken and stored into file: src/test/resources/screenshots/
+[INFO ] 2021-07-24 13:34:24.822 [main] ScreenshotUtils - End of taking screenshot
+[DEBUG] 2021-07-24 13:34:24.822 [main] PractoHospitals - Providing Implicit delay of 10 seconds
+[DEBUG] 2021-07-24 13:34:24.826 [main] PractoHospitals - Retrieving Top cities elements using : By.className: u-margint--standard
+[INFO ] 2021-07-24 13:34:24.993 [main] ExcelUtils - Start of writing
+[DEBUG] 2021-07-24 13:34:25.959 [main] ExcelUtils - Writing data: Bangalore
+[DEBUG] 2021-07-24 13:34:25.960 [main] ExcelUtils - Writing data: Delhi
+[DEBUG] 2021-07-24 13:34:25.962 [main] ExcelUtils - Writing data: Mumbai
+[DEBUG] 2021-07-24 13:34:25.963 [main] ExcelUtils - Writing data: Hyderabad
+[DEBUG] 2021-07-24 13:34:25.964 [main] ExcelUtils - Writing data: Pune
+[DEBUG] 2021-07-24 13:34:25.964 [main] ExcelUtils - Total written data : 5 for sheet : topCities
+[INFO ] 2021-07-24 13:34:26.019 [main] ExcelUtils - End of writing
+[INFO ] 2021-07-24 13:34:26.024 [main] DriverSetup - Closing browser
+[INFO ] 2021-07-24 13:34:36.162 [main] ExcelUtils - Start of reading
+[INFO ] 2021-07-24 13:34:36.222 [main] ExcelUtils - End of reading
+[INFO ] 2021-07-24 13:34:36.225 [main] DriverSetup - Start of setting web driver
+[INFO ] 2021-07-24 13:34:36.225 [main] DriverSetup - Loading the url and the drivers as properties
+[DEBUG] 2021-07-24 13:34:39.654 [main] DriverSetup - Setup done for Webdriver of type: ChromeDriver
+[INFO ] 2021-07-24 13:34:39.654 [main] DriverSetup - Maximizing window
+[DEBUG] 2021-07-24 13:34:39.809 [main] DriverSetup - Opening url: https://www.practo.com/
+[INFO ] 2021-07-24 13:34:42.861 [main] DriverSetup - End of setting web driver
+[INFO ] 2021-07-24 13:34:42.921 [main] ExcelUtils - Start of reading
+[DEBUG] 2021-07-24 13:34:43.012 [main] ExcelUtils - Reading data completed from excel: {BODY_TAG_NAME=body, CORPORATE_WELLNESS_LINK_TEXT=Corporate Wellness, NAME_ID=name, ORGANIZATION_NAME_ID=organization_name, OFFICIAL_EMAIL_ID=official_email_id, OFFICIAL_PHONE_NO_ID=official_phone_no, ORGANIZATION_SIZE_ID=organization_size, SCHEDULE_BUTTON_ID=button-style}
+[INFO ] 2021-07-24 13:34:43.013 [main] ExcelUtils - End of reading
+[DEBUG] 2021-07-24 13:34:43.013 [main] PractoInvalidCheck - Finding Body tag using : By.tagName: body
+[DEBUG] 2021-07-24 13:34:43.212 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:34:43.215 [main] PractoInvalidCheck - Finding Corporate Wellness link using : By.linkText: Corporate Wellness
+[DEBUG] 2021-07-24 13:34:43.614 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:34:43.636 [main] PractoInvalidCheck - Title of the page is: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+[DEBUG] 2021-07-24 13:34:47.231 [main] PractoInvalidCheck - Opened tab : Employee Health | Corporate Health & Wellness Plans | Practo
+[DEBUG] 2021-07-24 13:34:47.231 [main] PractoInvalidCheck - Finding Name input field using : By.id: name
+[DEBUG] 2021-07-24 13:34:47.746 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:34:47.752 [main] PractoInvalidCheck - Finding Name input field using : By.id: organization_name
+[DEBUG] 2021-07-24 13:34:47.940 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:34:47.945 [main] PractoInvalidCheck - Finding Official Email id input field using : By.id: official_email_id
+[DEBUG] 2021-07-24 13:34:48.110 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:34:48.113 [main] PractoInvalidCheck - Finding Official Phone number input field using : By.id: official_phone_no
+[DEBUG] 2021-07-24 13:34:48.262 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:34:48.268 [main] PractoInvalidCheck - Finding Organization size select field using : By.id: organization_size
+[DEBUG] 2021-07-24 13:34:49.566 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[INFO ] 2021-07-24 13:34:49.594 [main] ScreenshotUtils - Start of taking screenshot
+[DEBUG] 2021-07-24 13:34:50.215 [main] ScreenshotUtils - Screenshot taken and stored into file: src/test/resources/screenshots/
+[INFO ] 2021-07-24 13:34:50.220 [main] ScreenshotUtils - End of taking screenshot
+[DEBUG] 2021-07-24 13:34:50.221 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:34:50.223 [main] PractoInvalidCheck - Finding Schedule Button field using : By.id: button-style
+[DEBUG] 2021-07-24 13:34:50.320 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:35:20.340 [main] PractoInvalidCheck - Getting Alert pop-up
+[INFO ] 2021-07-24 13:35:20.348 [main] DriverSetup - Closing browser
+[INFO ] 2021-07-24 13:35:22.648 [main] DriverSetup - Start of setting web driver
+[INFO ] 2021-07-24 13:35:22.648 [main] DriverSetup - Loading the url and the drivers as properties
+[DEBUG] 2021-07-24 13:35:24.985 [main] DriverSetup - Setup done for Webdriver of type: ChromeDriver
+[INFO ] 2021-07-24 13:35:24.985 [main] DriverSetup - Maximizing window
+[DEBUG] 2021-07-24 13:35:25.201 [main] DriverSetup - Opening url: https://www.practo.com/
+[INFO ] 2021-07-24 13:35:31.223 [main] DriverSetup - End of setting web driver
+[DEBUG] 2021-07-24 13:35:31.225 [main] PractoInvalidCheck - Finding Body tag using : By.tagName: body
+[DEBUG] 2021-07-24 13:35:31.311 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:35:31.315 [main] PractoInvalidCheck - Finding Corporate Wellness link using : By.linkText: Corporate Wellness
+[DEBUG] 2021-07-24 13:35:31.649 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:35:31.740 [main] PractoInvalidCheck - Title of the page is: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+[DEBUG] 2021-07-24 13:35:34.719 [main] PractoInvalidCheck - Opened tab : Employee Health | Corporate Health & Wellness Plans | Practo
+[DEBUG] 2021-07-24 13:35:34.719 [main] PractoInvalidCheck - Finding Name input field using : By.id: name
+[DEBUG] 2021-07-24 13:35:34.838 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:35:34.844 [main] PractoInvalidCheck - Finding Name input field using : By.id: organization_name
+[DEBUG] 2021-07-24 13:35:34.983 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:35:34.986 [main] PractoInvalidCheck - Finding Official Email id input field using : By.id: official_email_id
+[DEBUG] 2021-07-24 13:35:35.128 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:35:35.132 [main] PractoInvalidCheck - Finding Official Phone number input field using : By.id: official_phone_no
+[DEBUG] 2021-07-24 13:35:35.287 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:35:35.291 [main] PractoInvalidCheck - Finding Organization size select field using : By.id: organization_size
+[DEBUG] 2021-07-24 13:35:35.428 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[INFO ] 2021-07-24 13:35:35.432 [main] ScreenshotUtils - Start of taking screenshot
+[DEBUG] 2021-07-24 13:35:36.098 [main] ScreenshotUtils - Screenshot taken and stored into file: src/test/resources/screenshots/
+[INFO ] 2021-07-24 13:35:36.104 [main] ScreenshotUtils - End of taking screenshot
+[DEBUG] 2021-07-24 13:35:36.104 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:35:36.107 [main] PractoInvalidCheck - Finding Schedule Button field using : By.id: button-style
+[DEBUG] 2021-07-24 13:35:36.210 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:06.216 [main] PractoInvalidCheck - Getting Alert pop-up
+[INFO ] 2021-07-24 13:36:06.225 [main] DriverSetup - Closing browser
+[INFO ] 2021-07-24 13:36:07.580 [main] DriverSetup - Start of setting web driver
+[INFO ] 2021-07-24 13:36:07.580 [main] DriverSetup - Loading the url and the drivers as properties
+[DEBUG] 2021-07-24 13:36:15.143 [main] DriverSetup - Setup done for Webdriver of type: ChromeDriver
+[INFO ] 2021-07-24 13:36:15.144 [main] DriverSetup - Maximizing window
+[DEBUG] 2021-07-24 13:36:15.285 [main] DriverSetup - Opening url: https://www.practo.com/
+[INFO ] 2021-07-24 13:36:19.683 [main] DriverSetup - End of setting web driver
+[DEBUG] 2021-07-24 13:36:19.686 [main] PractoInvalidCheck - Finding Body tag using : By.tagName: body
+[DEBUG] 2021-07-24 13:36:19.769 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:19.772 [main] PractoInvalidCheck - Finding Corporate Wellness link using : By.linkText: Corporate Wellness
+[DEBUG] 2021-07-24 13:36:20.078 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:20.093 [main] PractoInvalidCheck - Title of the page is: Practo | Video Consultation with Doctors, Book Doctor Appointments, Order Medicine, Diagnostic Tests
+[DEBUG] 2021-07-24 13:36:24.111 [main] PractoInvalidCheck - Opened tab : Employee Health | Corporate Health & Wellness Plans | Practo
+[DEBUG] 2021-07-24 13:36:24.111 [main] PractoInvalidCheck - Finding Name input field using : By.id: name
+[DEBUG] 2021-07-24 13:36:24.825 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:24.828 [main] PractoInvalidCheck - Finding Name input field using : By.id: organization_name
+[DEBUG] 2021-07-24 13:36:24.967 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:24.974 [main] PractoInvalidCheck - Finding Official Email id input field using : By.id: official_email_id
+[DEBUG] 2021-07-24 13:36:25.149 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:25.152 [main] PractoInvalidCheck - Finding Official Phone number input field using : By.id: official_phone_no
+[DEBUG] 2021-07-24 13:36:25.234 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:25.237 [main] PractoInvalidCheck - Finding Organization size select field using : By.id: organization_size
+[DEBUG] 2021-07-24 13:36:25.370 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[INFO ] 2021-07-24 13:36:25.374 [main] ScreenshotUtils - Start of taking screenshot
+[DEBUG] 2021-07-24 13:36:25.934 [main] ScreenshotUtils - Screenshot taken and stored into file: src/test/resources/screenshots/
+[INFO ] 2021-07-24 13:36:25.938 [main] ScreenshotUtils - End of taking screenshot
+[DEBUG] 2021-07-24 13:36:25.938 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:25.942 [main] PractoInvalidCheck - Finding Schedule Button field using : By.id: button-style
+[DEBUG] 2021-07-24 13:36:26.043 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:56.049 [main] PractoInvalidCheck - Getting Alert pop-up
+[INFO ] 2021-07-24 13:36:56.054 [main] ExcelUtils - Start of writing
+[DEBUG] 2021-07-24 13:36:57.692 [main] ExcelUtils - Writing data: Please enter valid email address
+[DEBUG] 2021-07-24 13:36:57.692 [main] ExcelUtils - Total written data : 1 for sheet : errorMessage
+[INFO ] 2021-07-24 13:36:57.750 [main] ExcelUtils - End of writing
+[DEBUG] 2021-07-24 13:36:57.750 [main] PractoInvalidCheck - Providing Implicit delay of 30 seconds
+[DEBUG] 2021-07-24 13:36:57.758 [main] PractoInvalidCheck - Getting Alert pop-up
+[INFO ] 2021-07-24 13:36:57.984 [main] DriverSetup - Closing browser
+[INFO ] 2022-11-17 23:55:45.015 [main] ExcelUtils - Start of reading
+[DEBUG] 2022-11-17 23:55:45.428 [main] ExcelUtils - Reading data completed from excel: {location=Bangalore, Type=Hospital, Rating=3.5+}
+[INFO ] 2022-11-17 23:55:45.428 [main] ExcelUtils - End of reading
+[INFO ] 2022-11-17 23:55:45.437 [main] DriverSetup - Start of setting web driver
+[INFO ] 2022-11-17 23:55:45.437 [main] DriverSetup - Loading the url and the drivers as properties
+[INFO ] 2022-11-17 23:55:45.479 [main] DriverSetup - Closing browser
+[INFO ] 2022-11-17 23:55:45.484 [main] DriverSetup - Start of setting web driver
+[INFO ] 2022-11-17 23:55:45.484 [main] DriverSetup - Loading the url and the drivers as properties
+[INFO ] 2022-11-17 23:55:45.488 [main] DriverSetup - Closing browser
+[INFO ] 2022-11-17 23:55:45.490 [main] ExcelUtils - Start of reading
+[INFO ] 2022-11-17 23:55:45.543 [main] ExcelUtils - End of reading
+[INFO ] 2022-11-17 23:55:45.543 [main] DriverSetup - Start of setting web driver
+[INFO ] 2022-11-17 23:55:45.544 [main] DriverSetup - Loading the url and the drivers as properties
+[INFO ] 2022-11-17 23:55:45.548 [main] DriverSetup - Closing browser
+[INFO ] 2022-11-17 23:55:45.550 [main] DriverSetup - Start of setting web driver
+[INFO ] 2022-11-17 23:55:45.550 [main] DriverSetup - Loading the url and the drivers as properties
+[INFO ] 2022-11-17 23:55:45.555 [main] DriverSetup - Closing browser
+[INFO ] 2022-11-17 23:55:45.558 [main] DriverSetup - Start of setting web driver
+[INFO ] 2022-11-17 23:55:45.558 [main] DriverSetup - Loading the url and the drivers as properties
+[INFO ] 2022-11-17 23:55:45.563 [main] DriverSetup - Closing browser
+[INFO ] 2024-04-18 20:22:15.561 [main] ExcelUtils - Start of reading
+[DEBUG] 2024-04-18 20:22:16.167 [main] ExcelUtils - Reading data completed from excel: {location=Bangalore, Type=Hospital, Rating=3.5+}
+[INFO ] 2024-04-18 20:22:16.167 [main] ExcelUtils - End of reading
+[INFO ] 2024-04-18 20:22:16.190 [main] DriverSetup - Start of setting web driver
+[INFO ] 2024-04-18 20:22:16.190 [main] DriverSetup - Loading the url and the drivers as properties
+[INFO ] 2024-04-18 20:22:16.268 [main] DriverSetup - Closing browser
